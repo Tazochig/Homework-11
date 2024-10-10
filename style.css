@@ -1,0 +1,91 @@
+body{
+    position: relative;
+    height: 100vh;
+}
+.foto{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* .cloud{
+    position: absolute;    
+    width: 1214px;
+    height: 745.47px;
+    top: 9937px;
+    left: -10256px;
+         
+} */
+.luigi{
+    position: absolute;    
+    width: 72px;
+    height: 63px;
+    top: 636px;
+    left: -32px;
+    animation: luigi 17s  ease-in-out infinite;
+    }
+    @keyframes luigi{
+        from{
+            left: 1020px;
+        }
+        to{
+            left: -100px;
+        }
+    }
+.mario{
+    position: absolute;    
+    width: 72px;
+    height: 63px;
+    top: 536px;
+    left: -32px;    
+    animation: mario 17s  ease-in-out infinite;
+}
+@keyframes mario{
+    from{
+        left: -50px;
+    }
+    to{
+        left: calc(100% + 0px);
+    }
+}
+
+
+.sun{
+    position: absolute;    
+    width: 200px;
+    height: 200px;
+    top: 36px;
+    left: 400px;
+    animation: 5s linear infinite;
+    animation-name: sun; 
+}
+@keyframes sun {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.tree{
+    position: absolute;    
+    width: 100px;
+    height: 143px;
+    top: 304px;
+    left: 1041px;
+    animation-name: tree;
+    animation: tree 500ms ease-in-out infinite; 
+
+}
+@keyframes tree {
+    from{
+            left: 100%;
+    }
+    to {
+        left: calc(0% + -100px);
+    }
+}
+.Kvelaperi{
+    position: relative;
+}
+
